@@ -1,4 +1,4 @@
-# Informe Final del Proyecto de Procesamiento de Lenguaje Natural (PLN) para Detección de Sesgos y RAG
+# Procesamiento de Lenguaje Natural (PLN) para Detección de Sesgos
 
 ## 1. Resumen Ejecutivo
 
@@ -8,7 +8,7 @@ Tras recibir el dataset etiquetado, se completaron con éxito todas las fases de
 
 ## 2. Metodología de Implementación (Pipeline PLN)
 
-El proyecto se estructuró en las fases descritas en el documento `PLN.docx`, utilizando Python y bibliotecas de PLN de vanguardia como `spaCy`, `transformers` y `sentence-transformers`.
+El proyecto se estructuró en las fases descritas en el documento redactado, utilizando Python y bibliotecas de PLN de vanguardia como `spaCy`, `transformers` y `sentence-transformers`.
 
 ### 2.1. Fases 1 y 2: Preprocesamiento y Embeddings Contextuales
 
@@ -87,4 +87,3 @@ Los siguientes archivos se generaron durante la implementación del *pipeline*:
 | `pln_pipeline.py` | Código fuente completo del *pipeline* de PLN (Fases 1, 2, 3 y 4). |
 | `bias_classification_report.txt` | Informe de rendimiento del clasificador de sesgos (Fase 3). |
 | `rag_system_test.txt` | Resultado de la prueba de la funcionalidad RAG (simulación de la explicación generada por LLM). |
-| `Informe_PLN_Sesgos_RAG_Final.md` | Este informe final. |
