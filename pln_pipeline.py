@@ -328,7 +328,8 @@ def train_bias_classifier():
     
     # 6. Almacenar el modelo y el informe
     # En un entorno real, se serializaría el modelo. Aquí, guardaremos el informe.
-    with open("bias_classification_report.txt", "w") as f:
+    # CORRECCIÓN: añadido encoding='utf-8'
+    with open("bias_classification_report.txt", "w", encoding='utf-8') as f:
         f.write(report)
         
     print("Informe de clasificación guardado en bias_classification_report.txt")
@@ -421,7 +422,8 @@ def run_rag_system():
     
     print(descripcion_generada)
     
-    with open("rag_system_test.txt", "w") as f:
+    # CORRECCIÓN: añadido encoding='utf-8'
+    with open("rag_system_test.txt", "w", encoding='utf-8') as f:
         f.write(descripcion_generada)
         
     print("Resultado de la prueba RAG guardado en rag_system_test.txt")

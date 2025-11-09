@@ -1,0 +1,23 @@
+
+    **Descripción Detallada y Razones del Sesgo (Simulación de LLM):**
+    
+    El fragmento de texto: "RT @ExpresoPeru: 🔴 Narcogobierno mexicano asila a golpista Chávez | "Habiendo protegido a Evo Morales, Jorge Glas y ahora con el caso Betss…" fue clasificado con el sesgo
+    "Sin Clasificar" (etiqueta original).
+    
+    **RAG_ENTRADA (Contexto Recuperado):**
+    El sistema RAG recuperó el siguiente fragmento similar de la base de conocimiento:
+    "rt narcogobierno mexicano asila golpista chávez habiendo protegido evo morales [PERSONA_X]" (etiquetado como "Sin Clasificar").
+    
+    **Explicación (Generada):**
+    La similitud contextual (Similitud Coseno: 231.4459) entre el tweet
+    y el fragmento recuperado sugiere que ambos comparten una estructura semántica similar.
+    
+    *   **Análisis Contextual (Simulado):** El uso de palabras clave y la estructura de la frase
+        en el tweet de consulta se asemejan a la forma en que se expresa el sesgo de
+        "Sin Clasificar" en el fragmento recuperado.
+    *   **Puntuación de Polarización:** La puntuación de polarización de 0.00
+        indica una carga emocional (simulada) que a menudo acompaña a este tipo de sesgo.
+    
+    Este proceso demuestra cómo el sistema RAG puede **aumentar** la explicación de la clasificación
+    proporcionando un ejemplo contextual relevante de la base de conocimiento.
+    
